@@ -66,7 +66,7 @@ mod public_key;
 mod public_key_components;
 mod public_modulus;
 
-pub(crate) mod verification;
+pub mod verification;
 
 use self::{public_exponent::PublicExponent, public_modulus::PublicModulus};
 
